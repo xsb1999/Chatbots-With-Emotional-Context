@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<div class="main" style="text-align: center">
+    <head>
+    <meta charset="utf-8" />
+    <title>Chat Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="../static/main.css">
+  </head>
+
+  <div class="title">
+    <h1>{{ name }} &nbsp; — &nbsp; {{ character }}&nbsp;Chatbot</h1>
+  </div>
+
+    <br><br>
+    <textarea rows="6" cols="43" placeholder="User Input" id="user_input" style="font-size: larger; font-family: bold"></textarea>
+        <img src={{ img }} width="180" height="135">
+    <textarea rows="6" cols="43" placeholder="Chatbot Response" id="chatbot_response" style="font-size: larger; font-family: bold"></textarea>
+        <br><br>
+    
+        User Emotion:&nbsp; <input type="text" id="user_emotion" disabled="disabled" style="font-family: bold; font-size: larger">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Chatbot Emotion:&nbsp; <input type="text" id="chatbot_emotion" disabled="disabled" style="font-family: bold; font-size: larger">
+    <br><br><br>
+
+        Chatbot Emotion Sensitivity:
+    <br><br>
+    <label id="ES_tmp">{{ es }}</label>
+
+        <br><br>
+        Round: <label id="i">0</label>
+    <br>
+    <br>
+
+  <div style="margin-bottom: 2rem;">
+    <input type="button" value="Send" class="button" onclick="submit();" />
+      &nbsp;&nbsp;
+    <input type="button" value="Clear" class="button" onclick="clearAll();" />
+  </div>
+
+    <label id="ES" style="color: white">{{ es }}</label>
+
+    <script type="text/javascript" src="../static/main.js"></script>
+
+
+</div>
+
+</html>

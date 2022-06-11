@@ -6,7 +6,6 @@ import numpy as np
 x = pickle.load(open("models/IEMOCAP_all.pkl","rb"))
 train_data, train_label, train_filename_save, train_text, train_label_in_num, train_label_in_onehot, train_emt = x[0], x[1], x[2], x[3], x[4], x[5],x[6]
 
-train_text[0:4]+train_text[6:14]
 
 def _word_id_map(data):
     id2word = list(set([sent for qa in data for sent in qa]))

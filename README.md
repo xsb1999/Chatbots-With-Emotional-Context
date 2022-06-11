@@ -10,7 +10,8 @@ The emotion recognition module uses Keras framework and bi-directional LSTM. The
 <br><br>
 
 
-To run this project, just run ***app.py***
+To run this project, just run ***app.py*** and go to http://localhost:5000
+
 
 <br>
 

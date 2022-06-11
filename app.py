@@ -225,7 +225,6 @@ def predict():
                                                                        encoder_model, decoder_model, emotion_dict)
         print(ES_tmp)
         # Serialize the result, you can add additional fields
-        # ......
         if chatbot_response_sentence == '':
             chatbot_response_sentence = 'sorry i do not understand'
 

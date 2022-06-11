@@ -8,7 +8,7 @@ Chatbots respond to user input based on their personality. During the chat, chat
 The emotion recognition module uses Keras framework and bi-directional LSTM. The dialog generation module uses Keras framework, Seq2Seq model (encoder and decoder both use three-layer LSTM), and add emotional attention mechanism (concat emotion vector and decoder's input).
 <br><br>
 
-To run this project, clone this repository by using this:
+**To run this project**, clone this repository by using this:
 
 `git lfs clone git@github.com:xsb1999/Chatbots-With-Emotional-Context.git`
 

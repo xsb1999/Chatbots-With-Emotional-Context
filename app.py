@@ -226,6 +226,8 @@ def predict():
         print(ES_tmp)
         # Serialize the result, you can add additional fields
         # ......
+        if chatbot_response_sentence == '':
+            chatbot_response_sentence = 'sorry i do not understand'
 
         return jsonify(i=i, E=E, chatbot_E=chatbot_E, chatbot_response_sentence=chatbot_response_sentence,
                        ES_tmp=ES_tmp)

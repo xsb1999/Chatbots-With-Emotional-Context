@@ -10,11 +10,11 @@ The emotion recognition module uses Keras framework and bi-directional LSTM. The
 
 **To run this project**
 
-1. Clone this repository.
+1. Clone this repository
 
-2. Download `models.zip` from **Releases**.
-3. Unzip `models.zip` to `./models`.
-4. Run ***app.py*** and go to http://localhost:5000.
+2. Download `models.zip` from **Releases**
+3. Unzip `models.zip` to `./models`
+4. Run ***app.py*** and go to http://localhost:5000
 
 
 <br>

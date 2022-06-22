@@ -225,30 +225,6 @@ def predict():
                                                                        encoder_model, decoder_model, emotion_dict)
         print(ES_tmp)
         # Serialize the result, you can add additional fields
-        # if sentence == "it's good!" and chatbot_E == "happy":
-        #     chatbot_response_sentence = 'i think so too'
-        # if sentence == "it's good" and chatbot_E == "happy":
-        #     chatbot_response_sentence = 'i think so too'
-        # if sentence == "i am so happy" and chatbot_E == "sad":
-        #     chatbot_response_sentence = 'i am not'
-        # if sentence == "hello" and chatbot_E == "sad":
-        #     chatbot_response_sentence = 'leave me alone please'
-        # if sentence == "it's over" and chatbot_E == "sad":
-        #     chatbot_response_sentence = 'i think so'
-        # if sentence == "i am excited" and chatbot_E == "sad":
-        #     chatbot_response_sentence = 'i feel lonely'
-        # if sentence == "i am excited" and chatbot_E == "neutral":
-        #     chatbot_response_sentence = 'good job'
-        # if sentence == "i am excited" and chatbot_E == "angry":
-        #     chatbot_response_sentence = 'are you sure'
-        # if sentence == "i am excited" and chatbot_E == "happy":
-        #     chatbot_response_sentence = 'yeah yeah yeah yeah'
-        # if sentence == "it's wonderful" and chatbot_E == "happy":
-        #     chatbot_response_sentence = 'good job good job'
-        # if sentence == "i feel worse" and chatbot_E == "happy":
-        #     chatbot_response_sentence = 'keep smiling'
-        # if sentence == "hello sir" and chatbot_E == "sad":
-        #     chatbot_response_sentence = 'i do not want to talk anymore'
         if chatbot_response_sentence == '':
             chatbot_response_sentence = 'sorry i do not understand'
 

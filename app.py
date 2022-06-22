@@ -33,7 +33,7 @@ def get_word_indices(data_x, MaxLen):
     word_list = []
     for word in data_x:
         if not word in word2id:
-            # 遇到词汇表之外的词就把它归为unknown
+            # 遇到词汇表之外的词，就把它归为unknown类
             word_list.append(word2id['<UNK>'])
         else:
             word_list.append(word2id[word])

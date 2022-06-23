@@ -3,7 +3,7 @@ import sys
 import numpy as np
 import pickle
 import re
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 # Flask
 from flask import Flask, redirect, url_for, request, render_template, Response, jsonify, redirect
@@ -82,9 +82,9 @@ encoder_model = load_model('models/encoder_model.hdf5')
 # decoder
 decoder_model = load_model('models/decoder_model.hdf5')
 
-emotion_recognition_model._make_predict_function()
-encoder_model._make_predict_function()
-decoder_model._make_predict_function()
+# emotion_recognition_model._make_predict_function()
+# encoder_model._make_predict_function()
+# decoder_model._make_predict_function()
 print('Model loaded. Start serving...')
 
 
